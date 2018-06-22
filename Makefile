@@ -1,20 +1,19 @@
 install_all:
 	brew install tmux
 	brew install git
-	brew install diff2html-cli
-	brew install npm-home
+	brew install npm
+	npm install --global npm-home
+	npm install --global itunes-remote
 	brew install ranger
-	brew install itunes-remote
-	brew install Taskwarrior
-	brew install geeknote
+	brew install task
 install_bash_tools:
 	brew install tmux
 	brew install git
-	brew install diff2html-cli
-	brew install npm-home
+	brew install npm
+	npm install --global npm-home
 	brew install ranger
 install_mac_goodies:
-	brew install itunes-remote
+	npm install --global itunes-remote
 install_facebook:
 	brew install facebook-cli
 install_internet:
