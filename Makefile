@@ -1,3 +1,12 @@
+install_all:
+	brew install tmux
+	brew install git
+	brew install diff2html-cli
+	brew install npm-home
+	brew install ranger
+	brew install itunes-remote
+	brew install Taskwarrior
+	brew install geeknote
 install_bash_tools:
 	brew install tmux
 	brew install git
