@@ -4,6 +4,7 @@ install_all:
 	brew install npm
 	npm install --global npm-home
 	npm install --global itunes-remote
+	npm install -g vtop
 	brew install ranger
 	brew install task
 install_bash_tools:
@@ -12,6 +13,7 @@ install_bash_tools:
 	brew install npm
 	npm install --global npm-home
 	brew install ranger
+	npm install -g vtop
 install_mac_goodies:
 	npm install --global itunes-remote
 install_facebook:
@@ -24,4 +26,6 @@ isntall_productivity:
 	brew install Taskwarrior
 install_notes:
 	brew install geeknote
+#create_view_project:
+#	vue create project_name_here
 
